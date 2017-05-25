@@ -11,3 +11,6 @@ Features: Country tags
           //(That's prevents if someone got access into logs to can't find out your IP, just visitors IP'S)
 ```
 ToDo in future: ```Convert output from txt into MYSQL TABLES```
+
+## Output example
+![Output example](https://github.com/Jacckii/-PHP-Simple-IP-Logger/blob/master/example.jpg?raw=true)
