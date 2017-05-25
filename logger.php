@@ -122,3 +122,4 @@ $site_refer = $_SERVER['HTTP_REFERER'];
 	// Writing in to txt file
  $myfile = file_put_contents('ips.txt',date("Y-m-d - H:i:s - "). $country. " ". $ip." | ". $user_os. " | ". $user_browser. " | Come from site :". $site. " | user agent:" .$user_agent .PHP_EOL , FILE_APPEND | LOCK_EX);
 fclose($myfile);
+?>
