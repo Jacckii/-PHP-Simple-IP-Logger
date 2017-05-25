@@ -111,7 +111,7 @@ $site_refer = $_SERVER['HTTP_REFERER'];
 	$owner_country = "YOUR COUNTRY TAG FOR YOUR IP ↑"; //This u can leave how it is.
   
 	if($ip == $owner){ //Change it here 
-		$ip = "Owner"; // Change it here as well
+		$ip = "Owner"; 
 		$country = $owner_country;
 	}
   //If that wasn't you, it woun't change IP address and it will find info about IP address
