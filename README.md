@@ -10,6 +10,4 @@ Features: Country tags
           Hide owner's IP address and location 
           //(That's prevents if someone got access into logs to can't find out your IP, just visitors IP'S)
 ```
-ToDo in future: ```
-Convert output from txt into MYSQL TABLES
-```
+ToDo in future: ```Convert output from txt into MYSQL TABLES```
