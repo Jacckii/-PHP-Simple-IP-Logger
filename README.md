@@ -1,16 +1,14 @@
 # [PHP] Simple-IP-Logger
 
-###### V.1.0.5.
+######Modified Versiong based on V.1.0.5.
 
-This PHP Script simply write out info about visitors in to TXT file like : Date, Time, Country tag, IP address, OS, Browser, Where they come frome, user agent.
-```
-Features: Country tags
-          Browser
-          OS
-          Hide owner's IP address and location 
-          //(That's prevents if someone got access into logs to can't find out your IP, just visitors IP'S)
-```
-ToDo in future: ```Convert output from txt into MYSQL TABLES```
+This PHP Script simply write out info about visitors in to TXT file like : Date, Time, Visited page, Country tag, IP address, OS, Browser, Where they come frome, user agent.
 
-## Output example
-![Output example](https://github.com/Jacckii/-PHP-Simple-IP-Logger/blob/master/example.jpg?raw=true)
+To use it, just include it before other php scripts.
+
+````PHP
+<?php
+$vist_page     =   "index.php";
+include "logger.php";
+?>
+````
