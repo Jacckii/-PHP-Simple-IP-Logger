@@ -160,7 +160,7 @@ if(!isset($_SESSION[$vist_page]) || $_SESSION[$vist_page]!=1)
 			$country = $details->country;
 		}
 		// Writing in to txt file
-	 $myfile = file_put_contents('/var/www/html/iplist.txt',date("Y-m-d - H:i:s - "). $country. " ". $ip." | ". $vist_page." | ". $user_os. " | ". $user_browser. " | From: ". $site. " | user agent:" .$user_agent .PHP_EOL , FILE_APPEND | LOCK_EX);
+	 $myfile = file_put_contents(__DIR__ . 'iplist.txt',date("Y-m-d - H:i:s - "). $country. " ". $ip." | ". $vist_page." | ". $user_os. " | ". $user_browser. " | From: ". $site. " | user agent:" .$user_agent .PHP_EOL , FILE_APPEND | LOCK_EX);
 	fclose($myfile);
 }
 ?>
