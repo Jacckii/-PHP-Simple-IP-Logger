@@ -50,8 +50,6 @@ session_start();
 if(!isset($_SESSION[$vist_page]) || $_SESSION[$vist_page]!=1)
 {
 	$_SESSION[$vist_page]=1;
-	$user_os        =   getOS();
-	$user_browser   =   getBrowser();
 
 	// Getting visitor IP address
 	//$ip = $_SERVER['REMOTE_ADDR'];
